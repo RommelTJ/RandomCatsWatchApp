@@ -20,6 +20,7 @@
 		77D8DD7E1AE56C79006DD641 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77D8DD7C1AE56C79006DD641 /* Interface.storyboard */; };
 		77D8DD801AE56C79006DD641 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77D8DD7F1AE56C79006DD641 /* Images.xcassets */; };
 		77D8DD831AE56C79006DD641 /* RandomCatsWatchApp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 77D8DD681AE56C79006DD641 /* RandomCatsWatchApp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		77D8DD8C1AE57026006DD641 /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D8DD8B1AE57026006DD641 /* GlanceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		77D8DD7B1AE56C79006DD641 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77D8DD7D1AE56C79006DD641 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		77D8DD7F1AE56C79006DD641 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		77D8DD8B1AE57026006DD641 /* GlanceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +175,7 @@
 			children = (
 				77D8DD6D1AE56C79006DD641 /* InterfaceController.swift */,
 				77D8DD6F1AE56C79006DD641 /* NotificationController.swift */,
+				77D8DD8B1AE57026006DD641 /* GlanceController.swift */,
 				77D8DD711AE56C79006DD641 /* Images.xcassets */,
 				77D8DD6A1AE56C79006DD641 /* Supporting Files */,
 			);
@@ -386,6 +389,7 @@
 			files = (
 				77D8DD701AE56C79006DD641 /* NotificationController.swift in Sources */,
 				77D8DD6E1AE56C79006DD641 /* InterfaceController.swift in Sources */,
+				77D8DD8C1AE57026006DD641 /* GlanceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
